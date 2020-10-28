@@ -7,6 +7,14 @@ weight = 3
 
 ShardingSphere-JDBC 提供官方的 Spring Boot Starter，使开发者可以非常便捷的整合 ShardingSphere-JDBC 和 Spring Boot。
 
+```yaml
+<dependency>
+    <groupId>org.apache.shardingsphere</groupId>
+    <artifactId>sharding-jdbc-spring-boot-starter</artifactId>
+    <version>${lastversion}</version>
+</dependency>
+```
+
 ## 数据源配置
 
 ```properties
